@@ -8,6 +8,26 @@ order: 1
 
 ## Changelog
 
+1.2.0 - RC3
+-----------
+ - Update postfix relay documentation (GH #320)
+ - Update JpGraph to 4.0.1 (GH #289)
+ - Fix Reports.php and Lists.php when used in languages other than English (GH #307, GH #288)
+ - Proper expansion multiple %var% references in MailScanner parameters (GH #311)
+ - Updated traslation
+ - Add HIDE_UNKNOWN config option (GH #240, GH #254)
+ - Add Autorelease feature (one click release of quarantined emails) (GH #260)
+ - Fix per user spam score defaults (GH #263)
+
+1.2.0 - RC2
+-----------
+ - Fix name collision in queries (GH #243)
+ - Fix loading of SpamAssassin rule description if it starts with a space (GH #242)
+ - Fix login bypass on LDAP introduced in RC1 (GH #246, GH #248)
+ - Improve rep_total_mail_by_date report (GH #249, GH #250, GH #251)
+ - Fix LDAP search for 'mail' prefix (GH #252)
+ - Try to not encode multiple times a string that is already UTF8 (GH #225)
+
 1.2.0 - RC1
 -----------
  - Display load average if /proc/loadavg doesn't exists but /usr/bin/uptime does
