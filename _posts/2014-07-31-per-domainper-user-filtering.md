@@ -17,6 +17,6 @@ For example:
 * If you create a user named `smf@example.com` as user type `User` and I log-in as that user, I will only be able to see e-mail address to/from me and to be able to add Blacklist/Whitelist entries for my address (if enabled).
 * If I create a user named `example.com` as type `Domain Administrator` and I log-in as that user, I will only be able to see messages to/from my domain or create blacklist/whitelist entries for the entire domain or for a specific user.
 * The `Administrator` type can do anything for any user or domain.
-* If you need to have 'aliases' for your users - e.g. 'smf@example.com' also has an e-mail alias 'steve.freegard@example.org', then no problem - use the 'Filters' screen to add 'steve.freegard@example.org' and the 'smf@example.com' user will be able to see both.
+* If you need to have `aliases` for your users - e.g. `smf@example.com` also has an e-mail alias `steve.freegard@example.org`, then no problem - use the `Filters` screen to add `steve.freegard@example.org` and the `smf@example.com` user will be able to see both.
 
 Easy!
